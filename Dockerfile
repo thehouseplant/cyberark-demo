@@ -1,7 +1,15 @@
-FROM golang:1.12
+FROM golang:latest
 
-RUN go get -u github.com/cyberark/conjur-api-go/conjurapi
-RUN go build main.go
+WORKDIR /app
+
+COPY go.mod go.sum ./
+
+RUN go mod download
+
+COPY . .
+
+RUN go build -o main.go .
 
 EXPOSE 5000
+
 CMD [ "./main" ]
