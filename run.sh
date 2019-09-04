@@ -1,6 +1,5 @@
 #!/bin/bash
-while true
-do
+while true; do
     echo "Running CyberArk demo application for 5s..."
     ./main
     sleep 5
