@@ -12,4 +12,4 @@ RUN go build -o main.go .
 
 EXPOSE 5000
 
-CMD [ "./main" ]
+CMD [ "sh" "./run.sh" ]
