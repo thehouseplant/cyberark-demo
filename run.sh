@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 while true; do
     echo "Running CyberArk demo application for 5s..."
-    ./main
+    go run main.go
     sleep 5
     echo "Killing application"
 done
