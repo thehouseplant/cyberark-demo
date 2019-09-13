@@ -1,0 +1,1 @@
+var AWS_KEY = 'ABCD123456'
