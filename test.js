@@ -1,3 +1,1 @@
-const AWS_KEY = 'AKIAJCK2WUHJ2653GNBQ'
-const awsAccessId = 'AKIAJCK2WUHJ2653GNBQ'
-const AWS = 'AKIAJCK2WUHJ2653GNBQ'
+// Test config without stuff
