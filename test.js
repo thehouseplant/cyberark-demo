@@ -1,1 +1,1 @@
-var AWS_KEY = 'ABCD123456'
+var awsAccessId = 'ABCD123456'
